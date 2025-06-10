@@ -226,4 +226,4 @@ const API_ENDPOINT = "https://your-api.com/products";
 
 ⭐ **Bu projeyi beğendiyseniz, yıldız vermeyi unutmayın!**
 
-![Star History](https://img.shields.io/github/stars/username/pazaryeri-mcp?style=social) 
+![Star History](https://img.shields.io/github/stars/Bekir-Berke/pazaryeri-mcp?style=social) 

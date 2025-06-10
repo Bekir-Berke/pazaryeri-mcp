@@ -1,0 +1,61 @@
+{
+  "name": "pazaryeri-mcp",
+  "version": "1.0.0",
+  "description": "🛍️ Claude Desktop için güçlü e-ticaret MCP server'ı - Pazaryeri ürünlerinizi akıllı filtreler, alışveriş asistanı ve eğlenceli özelliklerle yönetin!",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "pazaryeri-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "lint": "tsc --noEmit",
+    "clean": "rm -rf build"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "claude",
+    "ai",
+    "assistant",
+    "e-commerce",
+    "shopping",
+    "product",
+    "filter",
+    "recommendation",
+    "typescript",
+    "pazaryeri",
+    "marketplace"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your-email@example.com",
+    "url": "https://github.com/yourusername"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pazaryeri-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/pazaryeri-mcp/issues"
+  },
+  "homepage": "https://github.com/yourusername/pazaryeri-mcp#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.57"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.3"
+  }
+}

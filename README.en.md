@@ -227,4 +227,4 @@ const API_ENDPOINT = "https://your-api.com/products";
 
 ⭐ **If you like this project, don't forget to give it a star!**
 
-![Star History](https://img.shields.io/github/stars/username/pazaryeri-mcp?style=social) 
+![Star History](https://img.shields.io/github/stars/Bekir-Berke/pazaryeri-mcp?style=social) 
